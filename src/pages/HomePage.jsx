@@ -1,9 +1,15 @@
 import { NavLink } from "react-router-dom";
 
+import slurpingSlug from '../images/logo.jpg'
 
 export default function HomePage() {
   return (
-    <div>
+    <div style={{
+        margin: '0%',
+        height: 'auto',
+        width: '100%',
+        backgroundColor: '#000000'
+    }}>
         <div style={{
             display: 'inline-flex',
             justifyContent: "space-around",
@@ -14,7 +20,10 @@ export default function HomePage() {
         <NavLink to="/store" >store page</NavLink>
         </div>
         <br /><br />
-      <h2>the slurping slug</h2>
+        <div>
+            <img src={slurpingSlug} alt="" />
+        </div>
+        <h2>the slurping slug</h2>
 
         <p>
         the more you slurp...
