@@ -3,7 +3,12 @@ import { NavLink } from "react-router-dom";
 
 export default function StorePage() {
   return (
-    <div>StorePage
+    <div style={{
+        width: '100%',
+        height: '100vh',
+        backgroundColor: '#000000',
+        color: 'white'
+    }}>StorePage
         <NavLink to='/'>back button</NavLink>
 
         <p>
