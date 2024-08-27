@@ -5,6 +5,8 @@ export default function CommentsPage() {
     <div>
         CommentsPage
         <NavLink to='/'>back button</NavLink>
+
+        message booard
     </div>
   )
 }
