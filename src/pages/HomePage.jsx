@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import slugs from '../images/slugs.jpg'
-import slurpingSlug from '../images/logo.jpg'
+import slurpingSlug from '../images/ramen-man.jpg'
 
 export default function HomePage() {
   return (
@@ -8,30 +8,60 @@ export default function HomePage() {
         margin: '0%',
         height: 'auto',
         width: '100%',
-        backgroundColor: '#000000'
+        backgroundColor: '#000000',
     }}>
-        <img src={slugs} alt="" />
+        <div style={{
+            padding: '1%',
+            display: 'flex',
+            alignItems: 'center'
+        }}>
+        <img src={slugs}  />
         <div style={{
             display: 'inline-flex',
+            alignItems: 'center',
             justifyContent: "space-around",
-            width: "50%"
+            width: "50%",
+            fontFamily: 'monospace',
+            fontSize: '20px',
+            color: 'seagreen',
+            padding: '3%'
         }}>
-        <NavLink to="/gallery" >images page</NavLink>
-        <NavLink to="/comics" >comics page</NavLink>
-        <NavLink to="/store" >store page</NavLink>
+        <NavLink to="/gallery" >images</NavLink>
+        <NavLink to="/comics" >comics</NavLink>
+        <NavLink to="/store" >store</NavLink>
+        <NavLink to="/comments" >comments</NavLink>
         </div>
+        </div>
+      
+   
         <br /><br />
         <div>
-            <img src={slurpingSlug} alt="" />
+            <img src={slurpingSlug} />
         </div>
-        <h2>the slurping slug</h2>
 
-        <p>
+
+        <p style={{
+            color: 'seagreen',
+            fontFamily: 'courier',
+            fontSize: 28,
+            padding: '2%'
+        }}>
         the more you slurp...
         </p>
 
-        <div>
-        moving the noodle...
+        <div style={{
+            fontFamily: 'courier',
+            fontSize: 20,
+            color: 'seagreen',
+            padding: '2%'
+        }}>
+            <h3>moving the noodle...</h3>
+            <p style={{
+                 padding: '2%'
+            }}>
+            Ramen, a renowned and revered representative of Japanese cuisine, radiates warmth and richness. Its roots trace back to humble beginnings, now blossoming into a beloved dish relished globally. Ramen's robust foundation rests in its remarkable broth, meticulously simmered for countless hours, releasing a symphony of flavors from pork, chicken, or vegetables. Noodles, resilient and springy, provide a robust counterpoint to the rich broth. A rainbow of toppings graces the ramen bowl, each offering a unique revelation of textures and tastes. Roasted pork, succulent and tender, nestles alongside ramen eggs, their yolks a vibrant reminder of sunshine. A riot of vegetables, ranging from earthy mushrooms to vibrant greens, adds a refreshing crunch. The ritual of ramen is a revelation in itself. The aroma, redolent of savory delights, invites a sense of anticipation. The first slurp, a harmonious blend of broth and noodles, sets the stage for a remarkable culinary journey. Each subsequent bite, a revelation of textures and flavors, leaves a lasting impression.
+            </p>
+     
         </div>
         
         <p>

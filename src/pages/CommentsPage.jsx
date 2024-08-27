@@ -4,7 +4,7 @@ export default function CommentsPage() {
   return (
     <div>
         CommentsPage
-        <NavLink>back button</NavLink>
+        <NavLink to='/'>back button</NavLink>
     </div>
   )
 }
