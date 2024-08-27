@@ -1,7 +1,11 @@
+import { NavLink } from "react-router-dom";
 
 
 export default function ImagesPage() {
   return (
-    <div>ImagesPage</div>
+    <div>
+        ImagesPage
+        <NavLink to='/'>back button</NavLink>
+    </div>
   )
 }
