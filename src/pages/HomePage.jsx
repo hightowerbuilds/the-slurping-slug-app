@@ -14,7 +14,7 @@ export default function HomePage() {
         <NavLink to="/store" >store page</NavLink>
         </div>
         <br /><br />
-        the slurping slug
+      <h2>the slurping slug</h2>
 
         <p>
         the more you slurp...
@@ -23,8 +23,9 @@ export default function HomePage() {
         <div>
         moving the noodle...
         </div>
+        
         <p>
-            howzit dun???
+        howzit dun???
         </p>
     </div>
   )
