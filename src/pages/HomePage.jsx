@@ -35,7 +35,9 @@ export default function HomePage() {
       
    
         <br /><br />
-        <div>
+        <div style={{
+            padding: '1%',
+        }}>
             <img src={slurpingSlug} />
         </div>
 
@@ -46,7 +48,7 @@ export default function HomePage() {
             fontSize: 28,
             padding: '2%'
         }}>
-        the more you slurp...
+      THE MORE YOU SLURP...
         </p>
 
         <div style={{
@@ -55,9 +57,9 @@ export default function HomePage() {
             color: 'seagreen',
             padding: '2%'
         }}>
-            <h3>moving the noodle...</h3>
+            <h3>Moving the NOODLE...</h3>
             <p style={{
-                 padding: '2%'
+                 padding: '3%'
             }}>
             Ramen, a renowned and revered representative of Japanese cuisine, radiates warmth and richness. Its roots trace back to humble beginnings, now blossoming into a beloved dish relished globally. Ramen's robust foundation rests in its remarkable broth, meticulously simmered for countless hours, releasing a symphony of flavors from pork, chicken, or vegetables. Noodles, resilient and springy, provide a robust counterpoint to the rich broth. A rainbow of toppings graces the ramen bowl, each offering a unique revelation of textures and tastes. Roasted pork, succulent and tender, nestles alongside ramen eggs, their yolks a vibrant reminder of sunshine. A riot of vegetables, ranging from earthy mushrooms to vibrant greens, adds a refreshing crunch. The ritual of ramen is a revelation in itself. The aroma, redolent of savory delights, invites a sense of anticipation. The first slurp, a harmonious blend of broth and noodles, sets the stage for a remarkable culinary journey. Each subsequent bite, a revelation of textures and flavors, leaves a lasting impression.
             </p>
