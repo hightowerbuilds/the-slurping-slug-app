@@ -43,10 +43,15 @@ export default function HomePage() {
 
 
         <p style={{
-            color: 'seagreen',
+            color: 'white',
             fontFamily: 'courier',
             fontSize: 28,
-            padding: '2%'
+            padding: '2%',
+            margin: '2%',
+            width: '92%',
+            display: 'flex',
+            justifyContent: 'center',
+            border: '2px white dotted'
         }}>
       THE MORE YOU SLURP...
         </p>
@@ -55,7 +60,8 @@ export default function HomePage() {
             fontFamily: 'courier',
             fontSize: 20,
             color: 'seagreen',
-            padding: '2%'
+            padding: '2%',
+           
         }}>
             <h3>Moving the NOODLE...</h3>
             <p style={{
