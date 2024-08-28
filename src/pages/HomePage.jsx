@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+
 import slugs from '../images/slugs.jpg'
 import slurpingSlug from '../images/logo2.jpg'
 
@@ -11,11 +12,12 @@ export default function HomePage() {
         backgroundColor: '#000000',
     }}>
         <div style={{
-            padding: '1%',
+            padding: '2%',
             display: 'flex',
             alignItems: 'center'
         }}>
-        <img src={slugs}  />
+            <NavLink to='/'> <img src={slugs}  /></NavLink>
+       
         <div style={{
             display: 'inline-flex',
             alignItems: 'center',
@@ -37,6 +39,7 @@ export default function HomePage() {
         <br /><br />
         <div style={{
             padding: '1%',
+
         }}>
             <img src={slurpingSlug} />
         </div>

@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-
-
+import buyNoodles from '../images/buyNoodles.jpg'
+import slugs from '../images/slugs.jpg'
 export default function StorePage() {
   return (
     <div style={{
@@ -8,12 +8,38 @@ export default function StorePage() {
         height: '100vh',
         backgroundColor: '#000000',
         color: 'white'
-    }}>StorePage
-        <NavLink to='/'>back button</NavLink>
+    }}>
+        <div style={{
+            padding: '2%'
+        }}>
+            <NavLink to='/'> <img src={slugs}  /></NavLink>
+        </div>
+        
+      
+        <div style={{
+            padding: '2%'
+        }}>
+           
+            <div>
+                <img src={buyNoodles} alt="" />
+            </div>
 
-        <p>
-            all the purchasing will be on this page... need to learn how to setup stripe.. . venmo... 
-        </p>
+            <p style={{
+                padding: '3%'
+            }}>
+                <h2>
+                NOODLE MENU
+                </h2>
+                <ol style={{
+                    padding: '3%'
+                }}>
+                    <li>pizza noodles $300.00</li>
+                    <li>salad noodles $1,000,000.00</li>
+                    <li>dope-ass noodles $666,666.66</li>
+                </ol>
+            </p>
+        </div>
+        
     </div>
   )
 }
