@@ -18,7 +18,7 @@ export default function ImagesPage() {
             <img  src={slugs}  />
             </NavLink>
         <h3>
-            Gallery of Images...  <br />Possibly a Menu of Items ... <br />Photos / Video of stuff
+          music - slug lickers tracks / links
         </h3>
     </div>
   )

@@ -1,5 +1,8 @@
 import { NavLink } from "react-router-dom"
 
+import sluglickerLogo from '../images/sluglickerLogo.jpg'
+import slugs from '../images/slugs.jpg'
+
 export default function ComicsPage() {
   return (
     <div style={{
@@ -8,8 +11,12 @@ export default function ComicsPage() {
         backgroundColor: '#000000',
         color: 'white'
     }}>
-        ComicsPage
-        <NavLink to='/'>back button</NavLink>
+    
+        <NavLink to='/'> 
+            <img  src={sluglickerLogo} />
+            <br />
+            <img  src={slugs}  />
+            </NavLink>
         <div>
             links to recent comics
             <br />
