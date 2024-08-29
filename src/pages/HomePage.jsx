@@ -2,6 +2,11 @@ import { NavLink } from "react-router-dom";
 
 import slugs from '../images/slugs.jpg'
 import slurpingSlug from '../images/logo2.jpg'
+import comicsLogo from '../images/comicsLogo.jpg'
+import musicLogo from '../images/musicLogo.jpg'
+import sluglickerLogo from '../images/sluglickerLogo.jpg'
+import noodlesLogo from '../images/noodlesLogo.jpg'
+import peepsLogo from '../images/peepsLogo.jpg'
 
 export default function HomePage() {
   return (
@@ -16,8 +21,12 @@ export default function HomePage() {
             display: 'flex',
             alignItems: 'center'
         }}>
-            <NavLink to='/'> <img src={slugs}  /></NavLink>
-       
+            <NavLink to='/'> 
+            <img  src={sluglickerLogo} />
+            <br />
+            <img  src={slugs}  />
+            </NavLink>
+            
         <div style={{
             display: 'inline-flex',
             alignItems: 'center',
@@ -28,10 +37,10 @@ export default function HomePage() {
             color: 'seagreen',
             padding: '3%'
         }}>
-        <NavLink to="/gallery" >images</NavLink>
-        <NavLink to="/comics" >comics</NavLink>
-        <NavLink to="/store" >store</NavLink>
-        <NavLink to="/comments" >comments</NavLink>
+        <NavLink to="/gallery" > <img src={musicLogo} /></NavLink>
+        <NavLink to="/comics" ><img src={comicsLogo} /></NavLink>
+        <NavLink to="/store" ><img src={noodlesLogo} /></NavLink>
+        <NavLink to="/comments" ><img src={peepsLogo} /></NavLink>
         </div>
         </div>
       
