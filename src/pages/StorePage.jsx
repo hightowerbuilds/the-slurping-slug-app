@@ -1,6 +1,9 @@
 import { NavLink } from "react-router-dom";
+
 import buyNoodles from '../images/buyNoodles.jpg'
 import slugs from '../images/slugs.jpg'
+import sluglickerLogo from '../images/sluglickerLogo.jpg'
+
 export default function StorePage() {
   return (
     <div style={{
@@ -12,7 +15,11 @@ export default function StorePage() {
         <div style={{
             padding: '2%'
         }}>
-            <NavLink to='/'> <img src={slugs}  /></NavLink>
+         <NavLink to='/'> 
+            <img  src={sluglickerLogo} />
+            <br />
+            <img  src={slugs}  />
+            </NavLink>
         </div>
         
       

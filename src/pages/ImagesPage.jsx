@@ -1,5 +1,8 @@
 import { NavLink } from "react-router-dom";
 
+import sluglickerLogo from '../images/sluglickerLogo.jpg'
+import slugs from '../images/slugs.jpg'
+
 
 export default function ImagesPage() {
   return (
@@ -9,8 +12,11 @@ export default function ImagesPage() {
         backgroundColor: '#000000',
         color: 'white'
     }}>
-        ImagesPage
-        <NavLink to='/'>back button</NavLink>
+          <NavLink to='/'> 
+            <img  src={sluglickerLogo} />
+            <br />
+            <img  src={slugs}  />
+            </NavLink>
         <h3>
             Gallery of Images...  <br />Possibly a Menu of Items ... <br />Photos / Video of stuff
         </h3>
