@@ -12,7 +12,13 @@
     border: 1px orangered dotted;
     width: 95%;
     padding: 1%;
-    margin-left: 2%;
+    margin-left: 1%;
+}
+
+.homePageMiddleNavBar {
+    border: 1px seagreen dotted;
+    width: 98%;
+    padding: 1%;
 }
 
 .homePageInteriorNavBar {
@@ -29,7 +35,7 @@
 }
 
 .homePageSlurpingLogo {
-    border: 1px rgb(0, 187, 255) dotted;
+    border: 3px dodgerblue dotted;
     border-radius: 1%;
     width: 82%;
     display: flex;
@@ -47,6 +53,7 @@
     display: flex;
     justify-content: center;
     border: 2px white dotted;
+    border-radius: 1%;
 }
 
 .homePageProductDescription {

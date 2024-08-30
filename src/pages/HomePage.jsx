@@ -15,12 +15,14 @@ export default function HomePage() {
     <div className="homePageMainBox">
       
         <div className="homePageExteriorNavBar">
+        <div className="homePageMiddleNavBar">
         <div className="homePageInteriorNavBar">
         <NavLink to='/'><img src={sluglickerLogo}/><br /><img src={slugs}/></NavLink>
         <NavLink to="/gallery" > <img src={musicLogo} /></NavLink>
         <NavLink to="/comics" ><img src={comicsLogo} /></NavLink>
         <NavLink to="/store" ><img src={noodlesLogo} /></NavLink>
         <NavLink to="/comments" ><img src={peepsLogo} /></NavLink>
+        </div>
         </div>
         </div>
 
