@@ -25,13 +25,7 @@ export default function HomePage() {
         <NavLink to="/comments" ><img src={peepsLogo} /></NavLink>
         </div>
   
-      
-   
-        <br /><br />
-        <div style={{
-            padding: '1%',
-
-        }}>
+        <div className="homePageSlurpingLogo">
             <img src={slurpingSlug} />
         </div>
 
