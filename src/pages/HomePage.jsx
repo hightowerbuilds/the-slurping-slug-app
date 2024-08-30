@@ -14,7 +14,7 @@ export default function HomePage() {
   return (
     <div className="homePageMainBox">
       
-           
+        <div className="homePageExteriorNavBar">
         <div className="homePageInteriorNavBar">
         <NavLink to='/'><img src={sluglickerLogo}/><br /><img src={slugs}/></NavLink>
         <NavLink to="/gallery" > <img src={musicLogo} /></NavLink>
@@ -22,7 +22,8 @@ export default function HomePage() {
         <NavLink to="/store" ><img src={noodlesLogo} /></NavLink>
         <NavLink to="/comments" ><img src={peepsLogo} /></NavLink>
         </div>
-  
+        </div>
+
         <div className="homePageSlurpingLogo">
             <img src={slurpingSlug} />
         </div>
@@ -30,6 +31,8 @@ export default function HomePage() {
 
         <p className="homePageSlurpTag">
       THE MORE YOU SLURP...
+      <input type="text" placeholder="warts grow somewhere on your body/butt"/>
+      <button>submit your response</button>
         </p>
 
         <div className="homePageProductDescription" style={{
