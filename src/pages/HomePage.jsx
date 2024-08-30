@@ -10,39 +10,21 @@ import peepsLogo from '../images/peepsLogo.jpg'
 
 export default function HomePage() {
   return (
-    <div style={{
-        margin: '0%',
-        height: 'auto',
-        width: '100%',
-        backgroundColor: '#000000',
-    }}>
-        <div style={{
-            padding: '2%',
-            display: 'flex',
-            alignItems: 'center'
-        }}>
-            <NavLink to='/'> 
+    <div className="homePageMainBox">
+      
+           
+        <div className="homePageInteriorNavBar">
+        <NavLink to='/'> 
             <img  src={sluglickerLogo} />
             <br />
             <img  src={slugs}  />
             </NavLink>
-            
-        <div style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            justifyContent: "space-around",
-            width: "50%",
-            fontFamily: 'monospace',
-            fontSize: '20px',
-            color: 'seagreen',
-            padding: '3%'
-        }}>
         <NavLink to="/gallery" > <img src={musicLogo} /></NavLink>
         <NavLink to="/comics" ><img src={comicsLogo} /></NavLink>
         <NavLink to="/store" ><img src={noodlesLogo} /></NavLink>
         <NavLink to="/comments" ><img src={peepsLogo} /></NavLink>
         </div>
-        </div>
+  
       
    
         <br /><br />

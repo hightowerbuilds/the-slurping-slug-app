@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import './HomePage.css'
 
 import sluglickerLogo from '../images/sluglickerLogo.jpg'
 import slugs from '../images/slugs.jpg'
