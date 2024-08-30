@@ -25,12 +25,12 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    width: 98%;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     color: seagreen;
     border: 1px yellow dotted;
- 
+    padding: 1%;
     
 }
 
