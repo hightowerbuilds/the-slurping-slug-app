@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    width: 95%;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     color: seagreen;
@@ -20,4 +20,23 @@
 
 .homePageSlurpingLogo {
     padding: 1%;
+}
+
+.homePageSlurpTag {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    padding: 2%;
+    margin: 5%;
+    width: 82%;
+    display: flex;
+    justify-content: center;
+    border: 2px white dotted;
+}
+
+.homePageProductDescription {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: seagreen;
+    padding: 2%;
 }

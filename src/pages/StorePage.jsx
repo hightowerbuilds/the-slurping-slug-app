@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-
+import './StorePage.css'
 import buyNoodles from '../images/buyNoodles.jpg'
 import slugs from '../images/slugs.jpg'
 import sluglickerLogo from '../images/sluglickerLogo.jpg'
