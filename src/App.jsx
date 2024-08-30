@@ -5,7 +5,7 @@ import StorePage from "./pages/StorePage";
 import CommentsPage from "./pages/CommentsPage";
 
 import { Route, Routes } from 'react-router-dom'
-
+import './App.css'
 
 
 export default function App() {
