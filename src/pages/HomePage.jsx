@@ -1,30 +1,15 @@
-import { NavLink } from "react-router-dom";
+
 import './HomePage.css'
-import slugs from '../images/slugs.jpg'
 import slurpingLogo from '../images/logo.jpg'
 import slurpingSlug from '../images/logo2.jpg'
-import comicsLogo from '../images/comicsLogo.jpg'
-import musicLogo from '../images/musicLogo.jpg'
-import sluglickerLogo from '../images/sluglickerLogo.jpg'
-import noodlesLogo from '../images/noodlesLogo.jpg'
-import peepsLogo from '../images/peepsLogo.jpg'
 import ramenMan from '../images/ramenMan.jpg'
+import DashboardNavBar from '../components/DashboardNavBar'
 
 export default function HomePage() {
   return (
     <div className="homePageMainBox">
       
-        <div className="homePageExteriorNavBar">
-        <div className="homePageMiddleNavBar">
-        <div className="homePageInteriorNavBar">
-        <NavLink to='/'><img src={sluglickerLogo}/><br /><img src={slugs}/></NavLink>
-        <NavLink to="/gallery" > <img src={musicLogo} /></NavLink>
-        <NavLink to="/comics" ><img src={comicsLogo} /></NavLink>
-        <NavLink to="/store" ><img src={noodlesLogo} /></NavLink>
-        <NavLink to="/comments" ><img src={peepsLogo} /></NavLink>
-        </div>
-        </div>
-        </div>
+        <DashboardNavBar />
 
         <div className="homePageSlurpingLogo">
             <img src={slurpingSlug} />

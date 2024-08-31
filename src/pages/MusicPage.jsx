@@ -1,8 +1,6 @@
-import { NavLink } from "react-router-dom";
-import './HomePage.css'
 
-import sluglickerLogo from '../images/sluglickerLogo.jpg'
-import slugs from '../images/slugs.jpg'
+import './MusicPage.css'
+import DashboardNavBar from "../components/DashboardNavBar";
 
 
 export default function ImagesPage() {
@@ -13,11 +11,7 @@ export default function ImagesPage() {
         backgroundColor: '#000000',
         color: 'white'
     }}>
-          <NavLink to='/'> 
-            <img  src={sluglickerLogo} />
-            <br />
-            <img  src={slugs}  />
-            </NavLink>
+        <DashboardNavBar/>
         <h3>
           music - slug lickers tracks / links
         </h3>

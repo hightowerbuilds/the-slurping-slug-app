@@ -1,22 +1,16 @@
-import { NavLink } from "react-router-dom"
 
-import sluglickerLogo from '../images/sluglickerLogo.jpg'
-import slugs from '../images/slugs.jpg'
+import DashboardNavBar from "../components/DashboardNavBar"
 
 export default function ComicsPage() {
   return (
     <div style={{
         width: '100%',
-        height: '100vh',
+        height: 'auto',
         backgroundColor: '#000000',
         color: 'white'
     }}>
     
-        <NavLink to='/'> 
-            <img  src={sluglickerLogo} />
-            <br />
-            <img  src={slugs}  />
-            </NavLink>
+      <DashboardNavBar />
         <div>
             links to recent comics
             <br />

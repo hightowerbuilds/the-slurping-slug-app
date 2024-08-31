@@ -8,32 +8,6 @@
     
 }
 
-.homePageExteriorNavBar {
-    border: 1px orangered dotted;
-    width: 95%;
-    padding: 1%;
-    margin-left: 1%;
-}
-
-.homePageMiddleNavBar {
-    border: 1px seagreen dotted;
-    width: 98%;
-    padding: 1%;
-}
-
-.homePageInteriorNavBar {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 98%;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    color: seagreen;
-    border: 1px yellow dotted;
-    padding: 1%;
-    
-}
-
 .homePageSlurpingLogo {
     border: 3px dodgerblue dotted;
     border-radius: 1%;

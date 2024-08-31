@@ -1,8 +1,7 @@
-import { NavLink } from "react-router-dom";
+
 import './StorePage.css'
 import buyNoodles from '../images/buyNoodles.jpg'
-import slugs from '../images/slugs.jpg'
-import sluglickerLogo from '../images/sluglickerLogo.jpg'
+import DashboardNavBar from "../components/DashboardNavBar";
 
 export default function StorePage() {
   return (
@@ -12,16 +11,8 @@ export default function StorePage() {
         backgroundColor: '#000000',
         color: 'white'
     }}>
-        <div style={{
-            padding: '2%'
-        }}>
-         <NavLink to='/'> 
-            <img  src={sluglickerLogo} />
-            <br />
-            <img  src={slugs}  />
-            </NavLink>
-        </div>
-        
+  
+        <DashboardNavBar />
       
         <div style={{
             padding: '2%'

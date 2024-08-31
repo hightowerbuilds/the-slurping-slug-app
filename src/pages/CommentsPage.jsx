@@ -1,9 +1,6 @@
-import { NavLink } from "react-router-dom"
 
-import slugs from '../images/slugs.jpg'
-import sluglickerLogo from '../images/sluglickerLogo.jpg'
-
-
+import './CommentsPage.css'
+import DashboardNavBar from "../components/DashboardNavBar"
 
 
 export default function CommentsPage() {
@@ -14,11 +11,7 @@ export default function CommentsPage() {
         backgroundColor: '#000000',
         color: 'white'
     }}>
-        <NavLink to='/'> 
-            <img  src={sluglickerLogo} />
-            <br />
-            <img  src={slugs}  />
-            </NavLink>
+     <DashboardNavBar />
         message booard
     </div>
   )
