@@ -1,0 +1,8 @@
+
+.footerMainBox {
+    background-color: black;
+    position: fixed;
+    bottom: 0%;
+    border: 1px seagreen solid;
+    width: 100%;
+}

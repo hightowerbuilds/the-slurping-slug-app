@@ -4,6 +4,7 @@ import buyNoodles from '../images/buyNoodles.jpg'
 import ramenPackage from '../images/ramenPackage.jpg'
 import DashboardNavBar from "../components/DashboardNavBar";
 import VenmoButton from '../components/VenmoButton';
+import Footer from '../components/Footer';
 
 export default function StorePage() {
   return (
@@ -13,7 +14,7 @@ export default function StorePage() {
         backgroundColor: '#000000',
         color: 'white'
     }}>
-  
+ 
         <DashboardNavBar />
         <div style={{padding: '2%'}}>  
         <div>
@@ -64,7 +65,7 @@ export default function StorePage() {
         <div><VenmoButton /></div>
         
         </div>
-        
+        <Footer />
     </div>
   )
 }
