@@ -2,6 +2,7 @@
 import './StorePage.css'
 import buyNoodles from '../images/buyNoodles.jpg'
 import DashboardNavBar from "../components/DashboardNavBar";
+import VenmoButton from '../components/VenmoButton';
 
 export default function StorePage() {
   return (
@@ -35,6 +36,9 @@ export default function StorePage() {
                     <li>salad noodles $1,000,000.00</li>
                     <li>dope-ass noodles $666,666.66</li>
                 </ol>
+                <div>
+                    <VenmoButton />
+                </div>
             </p>
         </div>
         
