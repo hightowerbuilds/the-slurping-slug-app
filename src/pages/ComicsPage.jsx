@@ -1,11 +1,12 @@
 
 import DashboardNavBar from "../components/DashboardNavBar"
+import Footer from "../components/Footer"
 
 export default function ComicsPage() {
   return (
     <div style={{
         width: '100%',
-        height: 'auto',
+        height: '100vh',
         backgroundColor: '#000000',
         color: 'white'
     }}>
@@ -16,6 +17,7 @@ export default function ComicsPage() {
             <br />
             info about the slug licker comic 
         </div>
+        <Footer />
     </div>
   )
 }

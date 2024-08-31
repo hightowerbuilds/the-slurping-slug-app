@@ -1,6 +1,7 @@
 
 import './MusicPage.css'
 import DashboardNavBar from "../components/DashboardNavBar";
+import Footer from '../components/Footer';
 
 
 export default function ImagesPage() {
@@ -15,6 +16,7 @@ export default function ImagesPage() {
         <h3>
           music - slug lickers tracks / links
         </h3>
+        <Footer />
     </div>
   )
 }

@@ -1,6 +1,7 @@
 
 import './CommentsPage.css'
 import DashboardNavBar from "../components/DashboardNavBar"
+import Footer from '../components/Footer'
 
 
 export default function CommentsPage() {
@@ -13,6 +14,8 @@ export default function CommentsPage() {
     }}>
      <DashboardNavBar />
         message booard
+    <br />
+        <Footer />
     </div>
   )
 }
