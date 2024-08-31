@@ -8,12 +8,14 @@
 }
 
 .storePageRamenPhotoBox {
+     overflow-x: auto; /* or overflow: auto; if you want both horizontal and vertical scrollbars */
+     max-width: 90%;
      margin: 2%;
      padding: 2%;
      border: 1px white dashed;
      border-radius: 1%;
      display: inline-flex;
-     flex-wrap: wrap;
+     /* flex-wrap: wrap; */
      width: 92%;
 }
 
@@ -37,8 +39,8 @@
     border-radius: 1%;
     display: flex;
     justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 15%;
 }
 
-.storePageVenmoButton {
-
-}

@@ -14,8 +14,51 @@ export default function StorePage() {
         <div style={{padding: '2%'}}>  
         <div>
             <img src={buyNoodles} alt="" />
-        </div>
+            </div>
 
+            <div className='storePageVenmoButtonBox'>
+            <VenmoButton className='storePageVenmoButton'/>
+            </div>
+       
+       <h3>noodles</h3>
+        <div className='storePageRamenPhotoBox'>
+            <div className='storePageRamenImage'>
+                <img src={ramenPackage} />
+                <br />
+                <button className='ramenButton'>
+                    add to cart
+                </button>
+            </div>
+
+            <div className='storePageRamenImage'>
+                <img src={ramenPackage} />
+                <button className='ramenButton'>
+                    add to cart
+                </button>
+            </div>
+
+            <div className='storePageRamenImage'>
+                <img src={ramenPackage} />
+                <button className='ramenButton'>
+                    add to cart
+                </button>
+            </div>
+
+            <div className='storePageRamenImage'>
+                <img src={ramenPackage} />
+                <button className='ramenButton'>
+                    add to cart
+                </button>
+            </div>
+
+            <div className='storePageRamenImage'>
+                <img src={ramenPackage} />
+                <button className='ramenButton'>
+                    add to cart
+                </button>
+            </div>
+        </div>
+        <h3>seasonings</h3>
         <div className='storePageRamenPhotoBox'>
   
             <div className='storePageRamenImage'>
@@ -53,13 +96,48 @@ export default function StorePage() {
                     add to cart
                 </button>
             </div>
-
+        </div>
+        <h3>nice hats and things</h3>
+        <div className='storePageRamenPhotoBox'>
         
+            <div className='storePageRamenImage'>
+                <img src={ramenPackage} />
+                <br />
+                <button className='ramenButton'>
+                    add to cart
+                </button>
+            </div>
+
+            <div className='storePageRamenImage'>
+                <img src={ramenPackage} />
+                <button className='ramenButton'>
+                    add to cart
+                </button>
+            </div>
+
+            <div className='storePageRamenImage'>
+                <img src={ramenPackage} />
+                <button className='ramenButton'>
+                    add to cart
+                </button>
+            </div>
+
+            <div className='storePageRamenImage'>
+                <img src={ramenPackage} />
+                <button className='ramenButton'>
+                    add to cart
+                </button>
+            </div>
+
+            <div className='storePageRamenImage'>
+                <img src={ramenPackage} />
+                <button className='ramenButton'>
+                    add to cart
+                </button>
+            </div>
         </div>
 
-        <div className='storePageVenmoButtonBox'>
-            <VenmoButton className='storePageVenmoButton'/>
-        </div>
+      
         
         </div>
         <Footer />
