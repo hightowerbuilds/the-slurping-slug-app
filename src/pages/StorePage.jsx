@@ -12,15 +12,13 @@ export default function StorePage() {
  
         <DashboardNavBar />
         <div style={{padding: '2%'}}>  
-        <div>
+            <div className='storePageBuyNoodles'>
             <img src={buyNoodles} alt="" />
             </div>
 
-            <div className='storePageVenmoButtonBox'>
-            <VenmoButton className='storePageVenmoButton'/>
-            </div>
+           
        
-       <h3>noodles</h3>
+       <h3 className='storePageBoxTitles'>noodles</h3>
         <div className='storePageRamenPhotoBox'>
             <div className='storePageRamenImage'>
                 <img src={ramenPackage} />
@@ -58,7 +56,7 @@ export default function StorePage() {
                 </button>
             </div>
         </div>
-        <h3>seasonings</h3>
+        <h3 className='storePageBoxTitles'>seasonings</h3>
         <div className='storePageRamenPhotoBox'>
   
             <div className='storePageRamenImage'>
@@ -97,7 +95,7 @@ export default function StorePage() {
                 </button>
             </div>
         </div>
-        <h3>nice hats and things</h3>
+        <h3 className='storePageBoxTitles'>hoodies</h3>
         <div className='storePageRamenPhotoBox'>
         
             <div className='storePageRamenImage'>
@@ -137,7 +135,9 @@ export default function StorePage() {
             </div>
         </div>
 
-      
+        <div className='storePageVenmoButtonBox'>
+            <VenmoButton/>
+            </div>
         
         </div>
         <Footer />

@@ -19,6 +19,12 @@
      width: 92%;
 }
 
+.storePageBuyNoodles {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .storePageRamenImage {
     margin: 1%;
     padding: 1%;
@@ -31,16 +37,12 @@
 }
 
 .storePageVenmoButtonBox {
-    margin-bottom: 5%;
-    margin-left: 5%;
-    padding: 2%;
-    width: 15%;
-    border: 1px white dashed;
-    border-radius: 1%;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    left: 50%;
-    top: 15%;
+margin: 5%;
 }
 
+.storePageBoxTitles {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: seagreen;
+    margin-left: 3%;
+}
