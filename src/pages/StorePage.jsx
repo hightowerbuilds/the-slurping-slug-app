@@ -14,32 +14,38 @@ export default function StorePage() {
     }}>
   
         <DashboardNavBar />
-      
-        <div style={{
-            padding: '2%'
-        }}>
-           
-            <div>
-                <img src={buyNoodles} alt="" />
+        <div style={{padding: '2%'}}>  
+        <div>
+            <img src={buyNoodles} alt="" />
+        </div>
+
+        <div className='storePageRamenPhotoBox'>
+  
+            <div className='storePageRamenImage'>
+                ramen
             </div>
 
-            <p style={{
-                padding: '3%'
-            }}>
-                <h2>
-                NOODLE MENU
-                </h2>
-                <ol style={{
-                    padding: '3%'
-                }}>
-                    <li>pizza noodles $300.00</li>
-                    <li>salad noodles $1,000,000.00</li>
-                    <li>dope-ass noodles $666,666.66</li>
-                </ol>
-                <div>
-                    <VenmoButton />
-                </div>
-            </p>
+            <div className='storePageRamenImage'>
+                ramen
+            </div>
+
+            <div className='storePageRamenImage'>
+                ramen
+            </div>
+
+            <div className='storePageRamenImage'>
+                ramen
+            </div>
+
+            <div className='storePageRamenImage'>
+                ramen
+            </div>
+        </div>
+
+        <p style={{padding: '3%'}}>
+        <h2>NOODLE MENU</h2>
+        <div><VenmoButton /></div>
+        </p>
         </div>
         
     </div>

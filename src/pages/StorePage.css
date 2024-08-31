@@ -1,0 +1,12 @@
+
+.storePageRamenPhotoBox {
+     margin: 2%;
+     border: 1px white dashed;
+     display: inline-flex;
+     width: 92%;
+}
+
+.storePageRamenImage {
+    border: 1px white dashed;
+    margin: 1%;
+}
