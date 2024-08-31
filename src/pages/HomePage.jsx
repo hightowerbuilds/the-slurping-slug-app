@@ -4,15 +4,18 @@ import slurpingLogo from '../images/logo.jpg'
 import slurpingSlug from '../images/logo2.jpg'
 import ramenMan from '../images/ramenMan.jpg'
 import DashboardNavBar from '../components/DashboardNavBar'
+import { NavLink } from 'react-router-dom'
 
 export default function HomePage() {
   return (
     <div className="homePageMainBox">
       
         <DashboardNavBar />
-
+      
+        <h2 className='homePageOpenSoonTag'>OPENING SOON!</h2>
         <div className="homePageSlurpingLogo">
-            <img src={slurpingSlug} />
+          <NavLink to='/store'>  <img src={slurpingSlug} /></NavLink>
+          
         </div>
 
 
