@@ -37,7 +37,9 @@
 }
 
 .storePageVenmoButtonBox {
-margin: 5%;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
 }
 
 .storePageBoxTitles {
