@@ -1,4 +1,12 @@
 
+.storePageMainBox {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: .2%;
+}
+
 .storePageRamenPhotoBox {
      margin: 2%;
      padding: 2%;

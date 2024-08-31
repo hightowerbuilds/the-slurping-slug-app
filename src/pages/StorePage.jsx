@@ -8,12 +8,7 @@ import Footer from '../components/Footer';
 
 export default function StorePage() {
   return (
-    <div style={{
-        width: '100%',
-        height: 'auto',
-        backgroundColor: '#000000',
-        color: 'white'
-    }}>
+    <div className='storePageMainBox'>
  
         <DashboardNavBar />
         <div style={{padding: '2%'}}>  
