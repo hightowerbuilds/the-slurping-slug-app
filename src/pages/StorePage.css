@@ -19,3 +19,18 @@
     display: flex;
     justify-content: center;
 }
+
+.storePageVenmoButtonBox {
+    margin-bottom: 5%;
+    margin-left: 5%;
+    padding: 2%;
+    width: 15%;
+    border: 1px white dashed;
+    border-radius: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.storePageVenmoButton {
+
+}

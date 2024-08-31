@@ -62,7 +62,9 @@ export default function StorePage() {
         
         </div>
 
-        <div><VenmoButton /></div>
+        <div className='storePageVenmoButtonBox'>
+            <VenmoButton className='storePageVenmoButton'/>
+        </div>
         
         </div>
         <Footer />
