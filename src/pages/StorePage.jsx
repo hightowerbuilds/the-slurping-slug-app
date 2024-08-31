@@ -61,10 +61,8 @@ export default function StorePage() {
         
         </div>
 
-        <p style={{padding: '3%'}}>
-        <h2>NOODLE MENU</h2>
         <div><VenmoButton /></div>
-        </p>
+        
         </div>
         
     </div>
