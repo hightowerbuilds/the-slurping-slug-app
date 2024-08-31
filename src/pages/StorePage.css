@@ -2,11 +2,21 @@
 .storePageRamenPhotoBox {
      margin: 2%;
      border: 1px white dashed;
+     border-radius: 2%;
      display: inline-flex;
+     flex-wrap: wrap;
      width: 92%;
 }
 
 .storePageRamenImage {
     border: 1px white dashed;
     margin: 1%;
+    padding: 1%;
+   
+}
+
+.ramenButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
