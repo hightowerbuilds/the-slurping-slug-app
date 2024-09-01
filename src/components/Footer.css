@@ -18,3 +18,9 @@
     background-color: black;
    
 }
+
+@media (max-width: 400px) {
+    .footerMainBox {
+        font-size: 12px;
+    }
+}
