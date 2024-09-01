@@ -2,9 +2,14 @@
 import './StorePage.css'
 import buyNoodles from '../images/buyNoodles.jpg'
 import ramenPackage from '../images/ramenPackage.jpg'
+import seasoningImage from '../images/seasoningImage.jpg'
+import hoodieImage from '../images/hoodieImage.jpg'
+
 import DashboardNavBar from "../components/DashboardNavBar";
 import VenmoButton from '../components/VenmoButton';
 import Footer from '../components/Footer';
+
+
 
 export default function StorePage() {
   return (
@@ -56,11 +61,13 @@ export default function StorePage() {
                 </button>
             </div>
         </div>
+
+
         <h3 className='storePageBoxTitles'>seasonings</h3>
         <div className='storePageRamenPhotoBox'>
   
             <div className='storePageRamenImage'>
-                <img src={ramenPackage} />
+                <img src={seasoningImage} />
                 <br />
                 <button className='ramenButton'>
                     add to cart
@@ -68,38 +75,41 @@ export default function StorePage() {
             </div>
 
             <div className='storePageRamenImage'>
-                <img src={ramenPackage} />
+                <img src={seasoningImage} />
                 <button className='ramenButton'>
                     add to cart
                 </button>
             </div>
 
             <div className='storePageRamenImage'>
-                <img src={ramenPackage} />
+                <img src={seasoningImage} />
                 <button className='ramenButton'>
                     add to cart
                 </button>
             </div>
 
             <div className='storePageRamenImage'>
-                <img src={ramenPackage} />
+                <img src={seasoningImage} />
                 <button className='ramenButton'>
                     add to cart
                 </button>
             </div>
 
             <div className='storePageRamenImage'>
-                <img src={ramenPackage} />
+                <img src={seasoningImage} />
                 <button className='ramenButton'>
                     add to cart
                 </button>
             </div>
         </div>
+
+
+    
         <h3 className='storePageBoxTitles'>hoodies</h3>
         <div className='storePageRamenPhotoBox'>
         
             <div className='storePageRamenImage'>
-                <img src={ramenPackage} />
+                <img src={hoodieImage} />
                 <br />
                 <button className='ramenButton'>
                     add to cart
@@ -107,28 +117,28 @@ export default function StorePage() {
             </div>
 
             <div className='storePageRamenImage'>
-                <img src={ramenPackage} />
+                <img src={hoodieImage} />
                 <button className='ramenButton'>
                     add to cart
                 </button>
             </div>
 
             <div className='storePageRamenImage'>
-                <img src={ramenPackage} />
+                <img src={hoodieImage} />
                 <button className='ramenButton'>
                     add to cart
                 </button>
             </div>
 
             <div className='storePageRamenImage'>
-                <img src={ramenPackage} />
+                <img src={hoodieImage} />
                 <button className='ramenButton'>
                     add to cart
                 </button>
             </div>
 
             <div className='storePageRamenImage'>
-                <img src={ramenPackage} />
+                <img src={hoodieImage} />
                 <button className='ramenButton'>
                     add to cart
                 </button>
