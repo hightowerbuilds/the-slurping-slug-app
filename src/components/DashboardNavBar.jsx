@@ -1,11 +1,12 @@
 import './DashboardNavBar.css'
 import { NavLink } from "react-router-dom";
-import slugs from '../images/slugs.jpg'
-import comicsLogo from '../images/comicsLogo.jpg'
-import musicLogo from '../images/musicLogo.jpg'
-import sluglickerLogo from '../images/sluglickerLogo.jpg'
-import noodlesLogo from '../images/noodlesLogo.jpg'
-import peepsLogo from '../images/peepsLogo.jpg'
+
+import slugs from '../images/browserImages/slugs.jpg'
+import comicsLogo from '../images/browserImages/comicsLogo.jpg'
+import musicLogo from '../images/browserImages/musicLogo.jpg'
+import sluglickerLogo from '../images/browserImages/sluglickerLogo.jpg'
+import noodlesLogo from '../images/browserImages/noodlesLogo.jpg'
+import peepsLogo from '../images/browserImages/peepsLogo.jpg'
 
 export default function DashboardNavBar() {
   return (

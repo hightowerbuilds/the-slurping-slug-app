@@ -1,9 +1,11 @@
 
 import './HomePage.css'
-import slurpingLogo from '../images/logo.jpg'
-import slurpingSlug from '../images/logo2.jpg'
+
+import slurpingLogo from '../images/browserImages/logo.jpg'
+import slurpingSlug from '../images/browserImages/logo2.jpg'
 import slurpingSlugMobile from '../images/mobileImages/logoMobile.jpeg'
-import ramenMan from '../images/ramenMan.jpg'
+import ramenMan from '../images/browserImages/ramenMan.jpg'
+
 import DashboardNavBar from '../components/DashboardNavBar'
 import { NavLink } from 'react-router-dom'
 import Footer from '../components/Footer'
