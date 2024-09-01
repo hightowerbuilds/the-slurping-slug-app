@@ -26,3 +26,9 @@
     
 }
 
+@media  (max-width: 400px) {
+    .homePageInteriorNavBar {
+        flex-wrap: wrap;
+    }
+}
+

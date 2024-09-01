@@ -13,7 +13,7 @@ export default function DashboardNavBar() {
     <div className="homePageExteriorNavBar">
         <div className="homePageMiddleNavBar">
             <div className="homePageInteriorNavBar">
-                <NavLink to='/'>
+                <NavLink style={{ width: '200px', display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}} to='/'>
                     <img src={sluglickerLogo}/><br />
                     <img src={slugs}/>
                 </NavLink>

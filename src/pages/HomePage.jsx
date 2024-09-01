@@ -26,7 +26,7 @@ export default function HomePage() {
         THE MORE YOU SLURP...
 
           <input type="text" placeholder="warts grow somewhere on your body/butt"/>
-
+          
           <button>
             submit your response
           </button>
