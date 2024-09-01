@@ -3,7 +3,8 @@ import './Footer.css'
 
 export default function Footer() {
   return (
-    <div className='footerMainBox'>
+    <div className='footerShadowMainBox'>
+      <div className='footerMainBox'>
       <p className='footerParagraphBoxes'>
       The Slurping Slug &#169; 2024
       </p>
@@ -14,5 +15,7 @@ export default function Footer() {
         webbage: <a href="https://hightower-resume.vercel.app/" style={{color: 'dodgerblue', backgroundColor: 'black'}}>hightower builds</a>
       </p>
     </div>
+    </div>
+   
   )
 }
