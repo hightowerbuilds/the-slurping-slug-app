@@ -2,6 +2,7 @@
 import './HomePage.css'
 import slurpingLogo from '../images/logo.jpg'
 import slurpingSlug from '../images/logo2.jpg'
+import slurpingSlugMobile from '../images/mobileImages/logoMobile.jpeg'
 import ramenMan from '../images/ramenMan.jpg'
 import DashboardNavBar from '../components/DashboardNavBar'
 import { NavLink } from 'react-router-dom'
@@ -19,6 +20,12 @@ export default function HomePage() {
        
       <NavLink className="homePageSlurpingLogo" to='/store'>  
         <img className='slupringSlugImg' src={slurpingSlug} />
+
+      </NavLink>
+
+    {/* MOBILE STAGING  */}
+      <NavLink className="homePageSlurpingLogoMobile" to='/store'>  
+        <img className='slupringSlugImg' src={slurpingSlugMobile} />
       </NavLink>
         
       <p className="homePageSlurpTag">
@@ -26,7 +33,7 @@ export default function HomePage() {
         THE MORE YOU SLURP...
 
           <input type="text" placeholder="warts grow somewhere on your body/butt"/>
-          
+
           <button>
             submit your response
           </button>
