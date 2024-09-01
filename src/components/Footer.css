@@ -1,19 +1,25 @@
 
 .footerMainBox {
-    background-color: transparent;
+   
     position: fixed;
     bottom: 0%;
-    /* border: 1px dodgerblue solid; */
-    width: 96%;
+    border-top: 5px dodgerblue solid;
+    width: 98%;
     display: inline-flex;
     justify-content: space-between;
     margin-left: 1%;
     font-family: 'Courier New', Courier, monospace;
     color: seagreen;
+    height: 3px;
+    transition: 500ms ease-in-out;
 }
 
+.footerMainBox:hover {
+  transform: translateY(-60px);
+
+  }
+
 .footerParagraphBoxes {
-    border: 1px dodgerblue dotted;
     color: dodgerblue;
     background-color: black;
    
@@ -22,5 +28,7 @@
 @media (max-width: 400px) {
     .footerMainBox {
         font-size: 12px;
+        background-color: black;
     }
+    
 }

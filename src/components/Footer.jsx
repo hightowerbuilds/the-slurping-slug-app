@@ -11,7 +11,7 @@ export default function Footer() {
       contact trevor: (###) $$$-****
       </p>
       <p className='footerParagraphBoxes'>
-        webbage: <a href="https://hightower-resume.vercel.app/" style={{color: 'dodgerblue'}}>hightower builds</a>
+        webbage: <a href="https://hightower-resume.vercel.app/" style={{color: 'dodgerblue', backgroundColor: 'black'}}>hightower builds</a>
       </p>
     </div>
   )
