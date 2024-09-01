@@ -11,11 +11,26 @@
 .homePageSlurpingLogo {
     border: 3px dodgerblue dotted;
     border-radius: 1%;
-    width: 82%;
+    width: 90%;
     display: flex;
     justify-content: center;
     margin-left: 5%;
 }
+
+.slurpingSlugImg {
+    display: flex;
+    width: 100%;
+}
+
+@media (max-width: 400px) { 
+    .slurpingSlugImg {
+      width: 400px;
+    }
+
+    .homePageSlurpingLogo {
+       display: none;
+    }
+  }
 
 .homePageSlurpTag {
     color: white;

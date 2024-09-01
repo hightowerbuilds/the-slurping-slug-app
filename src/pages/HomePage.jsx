@@ -18,7 +18,7 @@ export default function HomePage() {
       </NavLink>
        
       <NavLink className="homePageSlurpingLogo" to='/store'>  
-        <img src={slurpingSlug} />
+        <img className='slupringSlugImg' src={slurpingSlug} />
       </NavLink>
         
       <p className="homePageSlurpTag">
