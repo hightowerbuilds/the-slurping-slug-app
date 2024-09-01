@@ -1,4 +1,6 @@
 
+
+
 .homePageMainBox {
     margin: 0%;
     padding: .2%;
@@ -22,15 +24,6 @@
     width: 100%;
 }
 
-@media (max-width: 400px) { 
-    .slurpingSlugImg {
-      width: 400px;
-    }
-
-    .homePageSlurpingLogo {
-       display: none;
-    }
-  }
 
 .homePageSlurpTag {
     color: white;
@@ -66,3 +59,17 @@
 .homePageOpenSoonTag:hover {
     color: orangered;
 }
+
+/* MOBILE STAGING */
+
+/* MOBILE MEDIA QUERIES */
+ 
+@media (max-width: 400px) { 
+    .slurpingSlugImg {
+      width: 400px;
+    }
+
+    .homePageSlurpingLogo {
+       display: none;
+    }
+  }
