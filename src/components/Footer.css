@@ -1,10 +1,10 @@
 
 .footerMainBox {
-    background-color: black;
+    background-color: transparent;
     position: fixed;
     bottom: 0%;
-    border: 1px seagreen solid;
-    width: 95%;
+    /* border: 1px dodgerblue solid; */
+    width: 96%;
     display: inline-flex;
     justify-content: space-between;
     margin-left: 1%;
@@ -13,6 +13,8 @@
 }
 
 .footerParagraphBoxes {
-    border-left: 1px seagreen dashed;
-    border-right: 1px seagreen dashed;
+    border: 1px dodgerblue dotted;
+    color: dodgerblue;
+    background-color: black;
+   
 }

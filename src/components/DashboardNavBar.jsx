@@ -18,7 +18,7 @@ export default function DashboardNavBar() {
                     <img src={slugs}/>
                 </NavLink>
 
-                <NavLink to="/gallery" > 
+                <NavLink  to="/gallery" > 
                     <img src={musicLogo} />
                 </NavLink>
 

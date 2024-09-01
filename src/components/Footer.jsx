@@ -5,13 +5,13 @@ export default function Footer() {
   return (
     <div className='footerMainBox'>
       <p className='footerParagraphBoxes'>
-      The Slurping Slug copyright 2024
+      The Slurping Slug &#169; 2024
       </p>
       <p className='footerParagraphBoxes'>
       contact trevor: (###) $$$-****
       </p>
       <p className='footerParagraphBoxes'>
-        webbage: <a href="https://hightower-resume.vercel.app/">hightower builds</a>
+        webbage: <a href="https://hightower-resume.vercel.app/" style={{color: 'dodgerblue'}}>hightower builds</a>
       </p>
     </div>
   )
