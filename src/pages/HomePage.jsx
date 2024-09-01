@@ -1,5 +1,6 @@
 
 import './HomePage.css'
+import { NavLink } from 'react-router-dom'
 
 import slurpingLogo from '../images/browserImages/logo.jpg'
 import slurpingSlug from '../images/browserImages/logo2.jpg'
@@ -7,7 +8,6 @@ import slurpingSlugMobile from '../images/mobileImages/logoMobile.jpeg'
 import ramenMan from '../images/browserImages/ramenMan.jpg'
 
 import DashboardNavBar from '../components/DashboardNavBar'
-import { NavLink } from 'react-router-dom'
 import Footer from '../components/Footer'
 
 export default function HomePage() {
@@ -33,10 +33,10 @@ export default function HomePage() {
       <p className="homePageSlurpTag">
 
         THE MORE YOU SLURP...
-
-          <input type="text" placeholder="warts grow somewhere on your body/butt"/>
-
-          <button>
+          
+          <input style={{ margin: '1%'}} type="text" placeholder="warts grow somewhere on your body/butt"/>
+        
+          <button style={{ margin: '1%'}}>
             submit your response
           </button>
 
