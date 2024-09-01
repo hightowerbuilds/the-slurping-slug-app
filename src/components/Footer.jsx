@@ -9,13 +9,11 @@ export default function Footer() {
       The Slurping Slug &#169; 2024
       </p>
       <p className='footerParagraphBoxes'>
-      contact trevor: (###) $$$-****
-      </p>
-      <p className='footerParagraphBoxes'>
-        webbage: <a href="https://hightower-resume.vercel.app/" style={{color: 'dodgerblue', backgroundColor: 'black'}}>hightower builds</a>
+        website: <a href="https://hightower-resume.vercel.app/" target='_blank' style={{color: 'dodgerblue', backgroundColor: 'black'}}>hightowerbuilds</a>
       </p>
     </div>
     </div>
    
   )
 }
+Jacobean666?/?/
