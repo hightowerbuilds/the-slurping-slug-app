@@ -1,5 +1,5 @@
 
-import payWithVenmo from '../images/payWithVenmo.jpg'
+import payWithVenmo from '../images/browserImages/payWithVenmo.jpg'
 
 export default function VenmoButton() {
 
