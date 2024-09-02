@@ -50,3 +50,13 @@
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.messageBoardHiddenWarning {
+    color: black;
+    transition: 250ms ease-in-out;
+    margin-left: 9%;
+}
+
+.messageBoardHiddenWarning:hover {
+    color: orangered;
+}
