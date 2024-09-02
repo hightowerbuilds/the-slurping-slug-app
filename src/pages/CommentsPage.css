@@ -6,7 +6,9 @@
 .messageBoardHeading {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    margin-left: 5%;
+    margin-top: 2%;
 }
 
 .messageBoardInputBox {
