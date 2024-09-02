@@ -75,7 +75,7 @@ export default function MessageBoard() {
         </div>
 
       </div>
-        <h1 className='messageBoardHiddenWarning'>don't be a dick</h1>
+        <h1 className='messageBoardHiddenWarning'>dont be a dick</h1>
      
     </div>
   );
