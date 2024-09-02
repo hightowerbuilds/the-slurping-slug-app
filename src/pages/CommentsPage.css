@@ -1,0 +1,50 @@
+.messageBoardMainBox {
+    width: 100%;
+    height: auto;
+}
+
+.messageBoardHeading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.messageBoardInputBox {
+    width: 100%;
+    margin: 1%;
+    display: inline-flex;
+}
+
+.messageBoardPosts {
+    margin: 2%;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 150%;
+    padding-right: 5%;
+}
+
+.messageBoardInputs { 
+    margin: 2%;
+}
+
+.messageBoardInputStylesName {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.messageBoardInputStylesMessage {
+    width: 100%;
+    height: 80%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.messageBoardButtonStyles {
+    width: 30%;
+    height: auto;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}

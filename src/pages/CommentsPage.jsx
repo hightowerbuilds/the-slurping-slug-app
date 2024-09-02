@@ -1,15 +1,12 @@
 
 import './CommentsPage.css'
-
 import DashboardNavBar from "../components/DashboardNavBar"
 import Footer from '../components/Footer'
-import messageLogo from '../images/browserImages/messageBoardLogo.jpg'
+
 import MessageBoard from '../components/MessageBoard'
 
 
 export default function CommentsPage() {
-
-
 
   return (
     <div style={{
@@ -18,12 +15,11 @@ export default function CommentsPage() {
         backgroundColor: '#000000',
         color: 'white'
     }}> 
-     <DashboardNavBar />
-        
-    <div>
-      <img src={messageLogo} />
-    </div>
-       <MessageBoard />
+        <DashboardNavBar />
+        <MessageBoard />
+    
+    
+    
     <br />
     <Footer />
     </div>
