@@ -127,7 +127,7 @@
     }
     .messageBoardMainBox {
         max-width: 400px;
-        min-height: 100%;
+      height: fit-content;
         overflow: hidden;
 
     }
