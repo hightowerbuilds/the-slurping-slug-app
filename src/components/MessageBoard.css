@@ -75,13 +75,15 @@
 
 .messageBoardPostsMobile {
     margin: 2%;
-    width: 400px;
+    padding: 2%;
+    width: 360px;
     height: 400px;
+    border: 1px whitesmoke dotted;
+    border-radius: 1%;
     flex-wrap: wrap;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
     line-height: 150%;
-    padding-right: 5%;
     overflow-y: auto;
 }
 
@@ -97,14 +99,14 @@
 }
 
 .messageBoardInputStylesNameMobile {
-    width: 100%;
+    width: 300px;
     height: auto;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .messageBoardInputStylesMessageMobile {
-    width: 30vh;
+    width: 360px;
     height: 80%;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
