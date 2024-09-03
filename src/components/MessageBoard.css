@@ -67,16 +67,23 @@
 
 /* MOBILE STYLES */
 
+.messageBoardHeadingMobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .messageBoardInputBoxMobile {
     width: 100%;
     height: auto;
     margin: 1%;
+    overflow: hidden;
 }
 
 .messageBoardPostsMobile {
     margin: 2%;
     padding: 2%;
-    width: 360px;
+    max-width: 360px;
     height: 400px;
     border: 1px whitesmoke dotted;
     border-radius: 1%;
@@ -92,21 +99,21 @@
 }
 
 .messageBoardButtonStylesMobile {
-    width: 30%;
+    max-width: 30%;
     height: auto;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .messageBoardInputStylesNameMobile {
-    width: 300px;
+    max-width: 300px;
     height: auto;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .messageBoardInputStylesMessageMobile {
-    width: 360px;
+    max-width: 360px;
     height: 80%;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
@@ -118,11 +125,23 @@
     .messageBoardInputBoxDesktop {
       display: none;
     }
-    
+    .messageBoardMainBox {
+        max-width: 400px;
+        height: auto;
+        overflow: hidden;
+
+    }
+    .messageBoardHeading {
+        display: none;
+    }
 }
 
 @media (min-width:400px) {
     .messageBoardInputBoxMobile {
+        display: none;
+    }
+
+    .messageBoardHeadingMobile {
         display: none;
     }
 }

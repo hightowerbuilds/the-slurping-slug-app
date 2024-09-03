@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { supabase } from '../services/supabase.js'
 import './MessageBoard.css'
 import messageLogo from '../images/browserImages/messagesLogo.jpg'
+import messageLogoMobile from '../images/mobileImages/messagesLogoMobile.jpg'
 
 export default function MessageBoard() {
   const [messages, setMessages] = useState([]);
@@ -60,6 +61,10 @@ export default function MessageBoard() {
         <img src={messageLogo} />
       </div>
 
+      <div className='messageBoardHeadingMobile'>   
+        <img src={messageLogoMobile} />
+      </div>
+
       <div className='messageBoardInputBoxDesktop'>
 
         <div className='messageBoardInputs'>
@@ -85,7 +90,7 @@ export default function MessageBoard() {
     
         <div className='messageBoardPosts'>
             {messages.map((message) => (<>
-            <p key={message.id}> 
+            <p  key={message.id}> 
                 <strong style={{color: 'dodgerblue'}}>
                     {message.name.toUpperCase()}
                 </strong>: {message.message}
