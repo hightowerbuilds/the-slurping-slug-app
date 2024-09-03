@@ -8,14 +8,13 @@
 }
 
 .storePageRamenPhotoBox {
-     overflow-x: auto; /* or overflow: auto; if you want both horizontal and vertical scrollbars */
+     overflow-x: auto; 
      max-width: 90%;
      margin: 2%;
      padding: 2%;
      border: 1px white dashed;
      border-radius: 1%;
      display: inline-flex;
-     /* flex-wrap: wrap; */
      width: 92%;
 }
 

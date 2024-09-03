@@ -103,7 +103,8 @@ export default function MessageBoard() {
             <p key={message.id}> 
                 <strong style={{color: 'dodgerblue'}}>
                     {message.name.toUpperCase()}
-                </strong>: {message.message}
+                </strong>:
+                 {message.message}
             </p>
             </>))}
         </div>
