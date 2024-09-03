@@ -105,7 +105,9 @@
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: black;
     color: seagreen;
- 
+    padding: 1%;
+    border: 2px #242424 solid;
+    border-radius: 1%;
 }
 
 .messageBoardInputStylesNameMobile {
