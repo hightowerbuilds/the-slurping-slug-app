@@ -24,7 +24,7 @@
 }
 
 .messageBoardInputStylesName {
-    width: 100%;
+    width: 60%;
     height: auto;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
@@ -46,12 +46,13 @@
 
 .messageBoardPosts {
     margin: 2%;
+    height: 600px;
     flex-wrap: wrap;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
     line-height: 150%;
     padding-right: 5%;
-    
+    overflow-y: auto;
 }
 
 .messageBoardHiddenWarning {
@@ -81,7 +82,7 @@
     font-family: 'Courier New', Courier, monospace;
     line-height: 150%;
     padding-right: 5%;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .messageBoardInputsMobile {
