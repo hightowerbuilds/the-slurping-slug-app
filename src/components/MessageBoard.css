@@ -1,0 +1,123 @@
+.messageBoardMainBox {
+    width: 100%;
+    height: auto;
+}
+
+.messageBoardHeading {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.messageBoardInputBoxDesktop {
+    width: 100%;
+    margin: 1%;
+    display: inline-flex;
+}
+
+
+
+.messageBoardInputs { 
+    margin: 2%;
+}
+
+.messageBoardInputStylesName {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.messageBoardInputStylesMessage {
+    width: 30vh;
+    height: 80%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.messageBoardButtonStyles {
+    width: 30%;
+    height: auto;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.messageBoardPosts {
+    margin: 2%;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 150%;
+    padding-right: 5%;
+    
+}
+
+.messageBoardHiddenWarning {
+    color: black;
+    transition: 250ms ease-in-out;
+    margin-left: 9%;
+}
+
+.messageBoardHiddenWarning:hover {
+    color: orangered;
+}
+
+/* MOBILE STYLES */
+
+.messageBoardInputBoxMobile {
+    width: 100%;
+    margin: 1%;
+  
+}
+
+.messageBoardPostsMobile {
+    margin: 2%;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 150%;
+    padding-right: 5%;
+    overflow-y: scroll;
+}
+
+.messageBoardInputsMobile {
+    margin: 2%;
+}
+
+.messageBoardButtonStylesMobile {
+    width: 30%;
+    height: auto;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.messageBoardInputStylesNameMobile {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.messageBoardInputStylesMessageMobile {
+    width: 30vh;
+    height: 80%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 400px) {
+    .messageBoardInputBoxDesktop {
+      display: none;
+    }
+    
+}
+
+@media (min-width:400px) {
+    .messageBoardInputBoxMobile {
+        display: none;
+    }
+}
