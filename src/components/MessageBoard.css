@@ -101,8 +101,11 @@
 .messageBoardButtonStylesMobile {
     max-width: 30%;
     height: auto;
-    font-size: 18px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    color: seagreen;
+ 
 }
 
 .messageBoardInputStylesNameMobile {

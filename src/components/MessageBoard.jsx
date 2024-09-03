@@ -84,7 +84,7 @@ export default function MessageBoard() {
             <br />
             <button 
             className='messageBoardButtonStyles' 
-            onClick={handleInsert}>send
+            onClick={handleInsert}> send
             </button>
         </div>
     
