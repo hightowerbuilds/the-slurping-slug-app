@@ -69,8 +69,8 @@
 
 .messageBoardInputBoxMobile {
     width: 100%;
+    height: auto;
     margin: 1%;
-  
 }
 
 .messageBoardPostsMobile {
