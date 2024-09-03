@@ -60,21 +60,78 @@ export default function MessageBoard() {
         <img src={messageLogo} />
       </div>
 
-      <div className='messageBoardInputBox'>
+      <div className='messageBoardInputBoxDesktop'>
 
         <div className='messageBoardInputs'>
-            <input className='messageBoardInputStylesName' type="text" value={newName} onChange={(e) => setNewName(e.target.value)} placeholder='name'/>
+            <input 
+            className='messageBoardInputStylesName' 
+            type="text" value={newName} 
+            onChange={(e) => setNewName(e.target.value)} 
+            placeholder='name'
+            />
             <br />
-            <textarea className='messageBoardInputStylesMessage' type="text" value={newMessage} onChange={(e) => setNewMessage(e.target.value)} placeholder='message' />
+            <textarea 
+            className='messageBoardInputStylesMessage' 
+            type="text" value={newMessage} 
+            onChange={(e) => setNewMessage(e.target.value)} 
+            placeholder='message' 
+            />
             <br />
-            <button className='messageBoardButtonStyles' onClick={handleInsert}>send</button>
+            <button 
+            className='messageBoardButtonStyles' 
+            onClick={handleInsert}>send
+            </button>
         </div>
     
         <div className='messageBoardPosts'>
-            {messages.map((message) => (<><p key={message.id}> <strong style={{color: 'dodgerblue'}}>{message.name.toUpperCase()}</strong>: {message.message}</p></>))}
+            {messages.map((message) => (<>
+            <p key={message.id}> 
+                <strong style={{color: 'dodgerblue'}}>
+                    {message.name.toUpperCase()}
+                </strong>: {message.message}
+            </p>
+            </>))}
+        </div>
+
+
+     
+      </div>
+      <div className='messageBoardInputBoxMobile'>
+
+      <div className='messageBoardPostsMobile'>
+            {messages.map((message) => (<>
+            <p key={message.id}> 
+                <strong style={{color: 'dodgerblue'}}>
+                    {message.name.toUpperCase()}
+                </strong>: {message.message}
+            </p>
+            </>))}
+        </div>
+
+        <br />
+        <div className='messageBoardInputsMobile'>
+            <input 
+            className='messageBoardInputStylesNameMobile' 
+            type="text" value={newName} 
+            onChange={(e) => setNewName(e.target.value)} 
+            placeholder='name'
+            />
+            <br />
+            <textarea 
+            className='messageBoardInputStylesMessageMobile' 
+            type="text" value={newMessage} 
+            onChange={(e) => setNewMessage(e.target.value)} 
+            placeholder='message' 
+            />
+            <br />
+            <button 
+            className='messageBoardButtonStylesMobile' 
+            onClick={handleInsert}>send
+            </button>
         </div>
 
       </div>
+
         <h1 className='messageBoardHiddenWarning'>dont be a dick</h1>
      
     </div>

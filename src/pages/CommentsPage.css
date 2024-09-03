@@ -11,20 +11,13 @@
     margin-top: 2%;
 }
 
-.messageBoardInputBox {
+.messageBoardInputBoxDesktop {
     width: 100%;
     margin: 1%;
     display: inline-flex;
 }
 
-.messageBoardPosts {
-    margin: 2%;
-    flex-wrap: wrap;
-    font-size: 18px;
-    font-family: 'Courier New', Courier, monospace;
-    line-height: 150%;
-    padding-right: 5%;
-}
+
 
 .messageBoardInputs { 
     margin: 2%;
@@ -38,7 +31,7 @@
 }
 
 .messageBoardInputStylesMessage {
-    width: 100%;
+    width: 30vh;
     height: 80%;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
@@ -51,6 +44,16 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+.messageBoardPosts {
+    margin: 2%;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 150%;
+    padding-right: 5%;
+    overflow-y: scroll;
+}
+
 .messageBoardHiddenWarning {
     color: black;
     transition: 250ms ease-in-out;
@@ -59,4 +62,61 @@
 
 .messageBoardHiddenWarning:hover {
     color: orangered;
+}
+
+/* MOBILE STYLES */
+
+.messageBoardInputBoxMobile {
+    width: 100%;
+    margin: 1%;
+  
+}
+
+.messageBoardPostsMobile {
+    margin: 2%;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 150%;
+    padding-right: 5%;
+}
+
+.messageBoardInputsMobile {
+    margin: 2%;
+}
+
+.messageBoardButtonStylesMobile {
+    width: 30%;
+    height: auto;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.messageBoardInputStylesNameMobile {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.messageBoardInputStylesMessageMobile {
+    width: 30vh;
+    height: 80%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 400px) {
+    .messageBoardInputBoxDesktop {
+      display: none;
+    }
+    
+}
+
+@media (min-width:400px) {
+    .messageBoardInputBoxMobile {
+        display: none;
+    }
 }
