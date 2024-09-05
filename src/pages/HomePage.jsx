@@ -5,6 +5,7 @@ import slurpingLogo from '../images/browserImages/logo.jpg'
 import slurpingSlug from '../images/browserImages/theSlurpingSlugLogoNew.jpg'
 import slurpingSlugMobile from '../images/mobileImages/theSlurpingSlugLogoMobile.jpg'
 import ramenMan from '../images/browserImages/ramenMan.jpg'
+import ramenManMobile from '../images/mobileImages/ramenManMobile.jpg'
 import DashboardNavBar from '../components/DashboardNavBar'
 import Footer from '../components/Footer'
 
@@ -51,7 +52,8 @@ export default function HomePage() {
             <br /><br />
            Slurp it, drink it, burp it, _____ it.
             <br /><br />
-            <img src={ramenMan} />
+            <img className='ramenManDesktop' src={ramenMan} />
+            <img className='ramenManMobile' src={ramenManMobile}/>
             <br /><br />
            So what now? Where's the nearest Slurp Shop? 
             <br /><br />
