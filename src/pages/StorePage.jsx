@@ -4,7 +4,6 @@ import buyNoodles from '../images/browserImages/buyNoodles.jpg'
 import ramenPackage from '../images/browserImages/ramenPackage.jpg'
 import seasoningImage from '../images/browserImages/seasoningImage.jpg'
 import hoodieImage from '../images/browserImages/hoodieImage.jpg'
-
 import DashboardNavBar from "../components/DashboardNavBar";
 import VenmoButton from '../components/VenmoButton';
 import Footer from '../components/Footer';

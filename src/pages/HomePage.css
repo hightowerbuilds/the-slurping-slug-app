@@ -1,13 +1,11 @@
 
-
-
 .homePageMainBox {
     margin: 0%;
     padding: .2%;
     height: auto;
     width: 100%;
     background-color: #000000;
-    
+   
 }
 
 .homePageSlurpingLogo {
@@ -43,6 +41,8 @@
     font-size: 20px;
     color: seagreen;
     padding: 2%;
+    margin: 2%;
+    border: 1px lawngreen dotted;
 }
 
 .homePageOpenSoonTag {
