@@ -13,16 +13,20 @@ import noodlesLogoMobile from '../images/mobileImages/noodlesLogoMobile.jpg'
 import peepsLogoMobile from '../images/mobileImages/peepsLogoMobile.jpg'
 
 
-
-
 export default function DashboardNavBar() {
   return (
 
     <div className="homePageExteriorNavBar">
         <div className="homePageMiddleNavBar">
             <div className="homePageInteriorNavBar">
+
                 <div className='slugBoxMobile'>
-                <NavLink style={{ width: '200px', display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}} to='/'>
+                <NavLink style={{ 
+                    width: '200px', 
+                    display: 'flex', 
+                    flexWrap: 'wrap', 
+                    justifyContent: 'center'
+                    }} to='/'>
                     <img src={sluglickerLogo}/><br />
                     <img src={slugs}/>
                 </NavLink>
