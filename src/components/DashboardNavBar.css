@@ -25,9 +25,91 @@
     height: auto;
 }
 
+.musicLogoDesktop {
+    display: block;
+}
+
+.comicsLogoDesktop {
+    display: block;
+}
+
+.noodlesLogoDesktop {
+    display: block;
+}
+
+.peepsLogoDesktop {
+    display: block;
+}
+
+.musicLogoMobile {
+    display: none;
+}
+
+.comicsLogoMobile {
+    display: none;
+}
+
+.noodlesLogoMobile {
+    display: none;
+}
+
+.peepsLogoMobile {
+    display: none;
+}
+
+.navBarButtonBoxDesktop {
+    display: inline-flex;
+}
+
+
 @media  (max-width: 400px) {
     .homePageInteriorNavBar {
         flex-wrap: wrap;
+    
+       
+    }
+
+    .musicLogoDesktop {
+        display: none;
+    }
+
+    .comicsLogoDesktop {
+        display: none;
+    }
+
+    .noodlesLogoDesktop {
+        display: none;
+    }
+
+    .peepsLogoDesktop {
+        display: none;
+    }
+
+    .musicLogoMobile {
+        display: block;
+    }
+
+    .comicsLogoMobile {
+        display: block;
+    }
+
+    .noodlesLogoMobile {
+        display: block;
+    }
+
+    .peepsLogoMobile {
+        display: block;
+    }
+
+    .slugBoxMobile {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .navBarButtonBoxDesktop {
+        display: block;
     }
 }
 
