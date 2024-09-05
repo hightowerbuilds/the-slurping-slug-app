@@ -3,7 +3,7 @@ import './HomePage.css'
 import { NavLink } from 'react-router-dom'
 
 import slurpingLogo from '../images/browserImages/logo.jpg'
-import slurpingSlug from '../images/browserImages/logo2.jpg'
+import slurpingSlug from '../images/browserImages/theSlurpingSlugLogoNew.jpg'
 import slurpingSlugMobile from '../images/mobileImages/logoMobile.jpeg'
 import ramenMan from '../images/browserImages/ramenMan.jpg'
 
