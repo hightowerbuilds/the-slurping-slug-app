@@ -37,7 +37,7 @@ export default function HomePage() {
           
           <input style={{ width: '80%', color: 'white', margin: '1%'}} type="text" placeholder="somethin' weird come round"/>
       
-          <button style={{width: '80%', color: 'white', margin: '1%', }}>
+          <button style={{width: '80%', color: 'white', marginBottom: '10%', }}>
             submit your response
           </button>
 
