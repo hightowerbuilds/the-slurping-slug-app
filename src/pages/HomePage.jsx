@@ -31,17 +31,17 @@ export default function HomePage() {
         <img className='slupringSlugImg' src={slurpingSlugMobile} />
       </NavLink>
         
-      <p className="homePageSlurpTag">
+      <div className="homePageSlurpTag">
 
-        THE MORE YOU SLURP...
+          <h4 style={{ padding: '10%'}}>the more you slurp...</h4> 
           
-          <input style={{ margin: '1%'}} type="text" placeholder="warts grow somewhere on your body/butt"/>
-        
-          <button style={{ color: 'white', margin: '1%'}}>
+          <input style={{ width: '80%', color: 'white', margin: '1%'}} type="text" placeholder="somethin' weird come round"/>
+      
+          <button style={{width: '80%', color: 'white', margin: '1%', }}>
             submit your response
           </button>
 
-      </p>
+      </div>
 
         <div className="homePageProductDescription">
 
