@@ -56,9 +56,7 @@ export default function HomePage() {
             <img className='ramenManMobile' src={ramenManMobile}/>
             <br /><br />
            So what now? Where's the nearest Slurp Shop? 
-            <br /><br />
-            <img src={slurpingLogo} />
-            <br /><br />
+          
 
         </div>
      
