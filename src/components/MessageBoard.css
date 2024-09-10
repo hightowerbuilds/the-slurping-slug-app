@@ -1,3 +1,7 @@
+* {
+    background-color: black;
+}
+
 .messageBoardMainBox {
     width: 100%;
     height: auto;
@@ -13,8 +17,10 @@
 
 .messageBoardInputBoxDesktop {
     width: 100%;
+    height: auto;
     margin: 1%;
     display: inline-flex;
+    color: aliceblue;
 }
 
 
@@ -34,6 +40,7 @@
     width: 30vh;
     height: 80%;
     font-size: 20px;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -41,6 +48,7 @@
     width: 30%;
     height: auto;
     font-size: 18px;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -102,9 +110,9 @@
     max-width: 30%;
     height: auto;
     font-size: 28px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'courier';
     background-color: black;
-    color: seagreen;
+    color: white;
     padding: 1%;
     border: 2px #242424 solid;
     border-radius: 1%;
@@ -120,6 +128,7 @@
 .messageBoardInputStylesMessageMobile {
     max-width: 360px;
     height: 80%;
+    color: white;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -127,9 +136,11 @@
 /* MEDIA QUERIES */
 
 @media (max-width: 400px) {
+
     .messageBoardInputBoxDesktop {
       display: none;
     }
+    
     .messageBoardMainBox {
         max-width: 400px;
         height: auto;
@@ -137,12 +148,14 @@
         overflow: hidden;
 
     }
+
     .messageBoardHeading {
         display: none;
     }
 }
 
 @media (min-width:400px) {
+    
     .messageBoardInputBoxMobile {
         display: none;
     }

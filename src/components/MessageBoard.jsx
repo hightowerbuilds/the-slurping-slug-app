@@ -132,7 +132,7 @@ export default function MessageBoard() {
             <br />
             <button 
             className='messageBoardButtonStylesMobile' 
-            onClick={handleInsert}>send
+            onClick={handleInsert}>SEND
             </button>
         </div>
 

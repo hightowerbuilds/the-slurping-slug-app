@@ -37,7 +37,7 @@ export default function HomePage() {
           
           <input style={{ margin: '1%'}} type="text" placeholder="warts grow somewhere on your body/butt"/>
         
-          <button style={{ margin: '1%'}}>
+          <button style={{ color: 'white', margin: '1%'}}>
             submit your response
           </button>
 
