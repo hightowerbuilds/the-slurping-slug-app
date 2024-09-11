@@ -92,7 +92,7 @@
     margin: 2%;
     padding: 2%;
     max-width: 360px;
-    height: 400px;
+    height: 250px;
     border: 1px whitesmoke dotted;
     border-radius: 1%;
     flex-wrap: wrap;
@@ -148,14 +148,13 @@
         overflow: hidden;
 
     }
-
+    
     .messageBoardHeading {
         display: none;
     }
 }
 
 @media (min-width:400px) {
-    
     .messageBoardInputBoxMobile {
         display: none;
     }
