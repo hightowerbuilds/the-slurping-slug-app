@@ -104,6 +104,7 @@
 
 .messageBoardInputsMobile {
     margin: 2%;
+   
 }
 
 .messageBoardButtonStylesMobile {
@@ -121,6 +122,7 @@
 .messageBoardInputStylesNameMobile {
     max-width: 300px;
     height: auto;
+    color: white;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }

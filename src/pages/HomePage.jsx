@@ -34,7 +34,7 @@ export default function HomePage() {
 
           <h4 style={{ padding: '10%'}}>the more you slurp...</h4> 
           
-          <input style={{ width: '80%', color: 'white', margin: '1%'}} type="text" placeholder="something weird come round"/>
+          <input style={{ width: '80%', color: 'white', margin: '1%'}} type="text" placeholder="something tasty goes round"/>
       
           <button style={{ width: '80%', height: '4vh', color: 'white', marginBottom: '10%', borderRadius: '%' }}>
             submit your response
