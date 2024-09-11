@@ -32,7 +32,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 2px white dotted;
+    /* border: 2px white dotted; */
     border-radius: 1%;
 }
 
@@ -95,7 +95,7 @@
     .homePageSlurpingLogoMobile {
         display: flex;
         margin: 3%;
-        border: 1px white dotted;
+        /* border: 1px white dotted; */
     }
 
     .ramenManMobile {
