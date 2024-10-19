@@ -5,6 +5,13 @@ import Footer from '../components/Footer';
 
 
 export default function ImagesPage() {
+
+  const speakSlug = () => {
+    const utterance = new SpeechSynthesisUtterance('slug licker is so friggin cool, oh well');
+
+    window.speechSynthesis.speak(utterance)
+  }
+
   return (
     <div style={{
         width: '100%',
@@ -13,9 +20,12 @@ export default function ImagesPage() {
         color: 'white'
     }}>
         <DashboardNavBar/>
-        <h3>
-          music - slug lickers tracks / links
-        </h3>
+
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh'}}>
+    <h3 style={{ fontFamily: 'courier' }}>Hear Here...</h3>
+    <a onClick={speakSlug} href="https://sluglicker.bandcamp.com/album/in-the-glowing-city" target="_blank" style={{ fontFamily: 'courier' }}>SLUGLICKER</a> 
+</div>
+         
         <Footer />
     </div>
   )
