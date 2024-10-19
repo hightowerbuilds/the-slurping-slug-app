@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 export default function ImagesPage() {
 
   const speakSlug = () => {
-    const utterance = new SpeechSynthesisUtterance('slug licker is so friggin cool, oh well');
+    const utterance = new SpeechSynthesisUtterance('slug licker');
 
     window.speechSynthesis.speak(utterance)
   }
