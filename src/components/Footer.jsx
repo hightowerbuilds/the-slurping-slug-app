@@ -6,10 +6,10 @@ export default function Footer() {
     <div className='footerShadowMainBox'>
       <div className='footerMainBox'>
       <p className='footerParagraphBoxes'>
-      The Slurping Slug &#169; 2024
+      Sluglicker &#169; 2024
       </p>
       <p className='footerParagraphBoxes'>
-        website: <a href="https://hightower-resume.vercel.app/" target='_blank' style={{color: 'dodgerblue', backgroundColor: 'black'}}>hightowerbuilds</a>
+        <a href="https://hightower-resume.vercel.app/" target='_blank' style={{color: 'dodgerblue', backgroundColor: 'black'}}>hightowerbuilds</a>
       </p>
     </div>
     </div>
